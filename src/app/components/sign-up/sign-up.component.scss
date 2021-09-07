@@ -2,19 +2,14 @@ h1 {
   margin-left: 20px;
 }
 
-.sign-in {
+.sign-up {
   display: flex;
   flex-direction: column;
   width: 80%;
   margin: 0 auto;
 
-  button {
+  &__submitBtn {
     width: 50%;
     margin: 0 auto;
   }
-
-  &__signUpBtn {
-    margin-top: 20px !important;
-  }
-
 }
